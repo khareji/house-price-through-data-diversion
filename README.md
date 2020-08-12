@@ -14,7 +14,7 @@ as this is my first project , and i dont have much knowledege in this domain , s
 3 continious
 4 object/categorical i have seprated year data indiviual after that finding relationship between different data with sales price then im finding the outlier in all data and percent of missing values that is NAN or 0 , and find relation b/w them with sales price by ploting a graph converting nan value to meaning full values for processing after doing all steps of preprocessing saving train data into new (finaltraindata.csv) repeating steps 3,4,5,6,7,10 for test data saving test into new finaltestdata seprating xtrain and ytrain applying lasso rigression (l2 regulalization technique) in x train to find the best feature among them and upadting xtrain
 # Python libraries used:
-import pandas as pd
+import pandas as pd/n
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
